@@ -276,3 +276,34 @@ input {
     border: orangered;
     color: aliceblue;
 }
+
+
+/* 5th section */
+.fifth-section {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.fifth-section h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fifth-section p {
+    margin-bottom: 5%;
+}
+
+.tainer-pic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.pic {
+    border: 20px solid gray;
+    padding-top: 100px;
+}
+
+.tainer-pic img {
+    width: 100%;
+}
