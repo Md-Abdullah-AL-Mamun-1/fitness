@@ -189,3 +189,31 @@ nav {
     padding-left: 30px;
     padding-bottom: 40px;
 }
+
+
+
+/* 3rd section */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 150px;
+}
+
+.container:hover {
+    transform: scale(.8);
+    transition: transform 2s ease-in;
+}
+
+.container h1 {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+i {
+    color: orange;
+    font-size: 100px;
+}
+
+.banner-half img {
+    width: 100%;
+}
