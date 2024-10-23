@@ -41,3 +41,90 @@ nav {
     background-color: orangered;
     border-radius: 20px;
 }
+
+
+/* banner section */
+.custom-font {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.042), black);
+}
+
+.banner img {
+    width: 50%;
+    padding-left: 20em;
+}
+
+.banner p {
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.banner-club {
+    background-color: orangered;
+    border-radius: 15px;
+    padding: 10px 40px;
+    border-color: orangered;
+    color: aliceblue;
+}
+
+.banner-app {
+    border-radius: 15px;
+    padding: 10px 40px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+
+.workout-video {
+    background-color: rgba(162, 156, 156, 0.145);
+    border-radius: 10px;
+    padding: 10px;
+    width: max-content;
+    font-size: 5px;
+    position: relative;
+    display: inline-block;
+    left: -150%;
+    top: 30%
+}
+
+.workout-video span {
+    font-size: 20px;
+}
+
+.tutorial-video {
+    background-color: rgba(162, 156, 156, 0.145);
+    border-radius: 10px;
+    padding: 10px;
+    width: max-content;
+    font-size: 5px;
+    display: flex;
+    position: relative;
+    left: -400%;
+    top: 80%
+}
+
+.tutorial-video span {
+    font-size: 20px;
+}
+
+.tutorial-video h3 {
+    background-color: orangered;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
