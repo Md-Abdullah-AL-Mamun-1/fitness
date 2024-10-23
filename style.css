@@ -307,3 +307,105 @@ input {
 .tainer-pic img {
     width: 100%;
 }
+
+
+/* footer section */
+footer {
+    background-color: rgba(128, 128, 128, 0.197);
+    border-radius: 15px;
+}
+
+.last-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+
+
+/* media query */
+/* for mobile */
+
+@media screen and (max-width:576px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nav-item-2 {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    /* banner section */
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 20px;
+    }
+
+    .banner img {
+        padding-left: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .banner button {
+        width: 40%;
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+
+    /* 2nd section */
+    .habit-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .extra-mile-section {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* 3rd section */
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+
+    /* 4th section */
+    .BMI-section {
+        grid-template-columns: repeat(1, 1fr);
+        width: 75%;
+        padding-left: 20px;
+    }
+
+    .in-3 {
+        padding-right: 55px;
+    }
+
+    /* 5th section */
+    .tainer-pic {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer */
+    .last-part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
