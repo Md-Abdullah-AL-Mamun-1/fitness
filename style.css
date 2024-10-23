@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* 1st section navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+
+.icon {
+    display: none;
+}
+
+.nav-item-2 ul {
+    display: flex;
+    justify-content: end;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-inline-start: 0;
+}
+
+.nav-item-2 li {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-text {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    color: orangered;
+}
+
+.nav-home {
+    background-color: orangered;
+    border-radius: 20px;
+}
